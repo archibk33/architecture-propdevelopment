@@ -1,0 +1,148 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.4 Chrome/138.0.7204.97 Electron/37.2.1 Safari/537.36" version="28.0.4">
+  <diagram name="Security Mindmap" id="security-mindmap">
+    <mxGraphModel dx="3217" dy="2012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A9kc7516S6RP3cKUufKE-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="-140" width="1230" height="970" as="geometry" />
+        </mxCell>
+        <mxCell id="center" value="Безопасность данных" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontSize=16;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="480" y="374" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="public" value="Публичные данные" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontSize=14;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="200" y="200" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="public-data" value="&lt;div&gt;Информация о жилом комплексе&lt;/div&gt;&lt;div&gt;Контактные данные застройщика&lt;/div&gt;&lt;div&gt;Новости и обновления по проекту&lt;/div&gt;&lt;div&gt;Актуальные цены на жильё&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontSize=12;align=center;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="167.5" width="160" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="public-risk1" value="Обесценивание данных" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="200" y="90" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="public-risk2" value="Искажение данных" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontSize=12;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="200" y="324" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="internal" value="Внутренние данные" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="800" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="internal-data" value="&lt;div&gt;Настройки и конфиги систем&lt;/div&gt;&lt;div&gt;Архитектурные схемы и решения&lt;/div&gt;&lt;div&gt;Документация по техчасти&lt;/div&gt;&lt;div&gt;Показатели и метрики работы&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontSize=12;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="780" y="50" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="internal-risk1" value="Утечка данных" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontSize=12;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="650" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="internal-risk2" value="Потеря данных" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontSize=12;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="950" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="internal-risk3" value="Искажение данных" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontSize=12;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="800" y="305" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="confidential" value="Конфиденциальные данные" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="170" y="590" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="confidential-data" value="&lt;div&gt;Личные данные клиентов&lt;/div&gt;&lt;div&gt;Платежная информация&lt;/div&gt;&lt;div&gt;Настройки умного дома&lt;/div&gt;&lt;div&gt;Инфо по объектам недвижимости&lt;/div&gt;&lt;div&gt;Данные по ЖКХ услугам&lt;/div&gt;&lt;div&gt;Информация по совершённым сделкам&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontSize=12;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="550" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="confidential-risk1" value="Утечка данных" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="185" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="confidential-risk2" value="Потеря данных" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="90" y="750" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="confidential-risk3" value="Искажение данных" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="260" y="750" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="confidential-risk4" value="Некачественные данные" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontSize=12;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="380" y="605" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="secret" value="Секретные данные" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6D8764;strokeColor=#82b366;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="secret-data" value="&lt;div&gt;Ключи для API-шек&amp;nbsp;&lt;/div&gt;&lt;div&gt;Стратегические документы и планы&lt;/div&gt;&lt;div&gt;Пароли от админки&lt;/div&gt;&lt;div&gt;Коды для доступа к системе безопасности&lt;/div&gt;&lt;div&gt;Криптоключи (для шифрования и всего такого)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6D8764;strokeColor=#82b366;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="610" y="565" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="secret-risk1" value="Утечка данных" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="800" y="490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="secret-risk2" value="Потеря данных" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="970" y="610" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="secret-risk3" value="Искажение данных" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="800" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" style="entryX=0.981;entryY=0.938;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="center" target="public" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" parent="1" source="center" target="internal" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" style="entryX=0.978;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="center" target="confidential" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" style="entryX=0.024;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="center" target="secret" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" parent="1" source="public" target="public-data" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" parent="1" source="public" target="public-risk1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" parent="1" source="public" target="public-risk2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" parent="1" source="internal" target="internal-data" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" parent="1" source="internal" target="internal-risk1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" parent="1" source="internal" target="internal-risk2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge11" parent="1" source="internal" target="internal-risk3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge12" parent="1" source="confidential" target="confidential-data" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge13" parent="1" source="confidential" target="confidential-risk1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge14" parent="1" source="confidential" target="confidential-risk2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge15" parent="1" source="confidential" target="confidential-risk3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge16" parent="1" source="confidential" target="confidential-risk4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge17" parent="1" source="secret" target="secret-data" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge18" parent="1" source="secret" target="secret-risk1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge19" parent="1" source="secret" target="secret-risk2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge20" parent="1" source="secret" target="secret-risk3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="Риски" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry y="-80" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-critical" value="КРИТИЧЕСКИЙ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="280" y="-30" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-significant" value="ЗНАЧИТЕЛЬНЫЙ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontSize=12;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="150" y="-30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-minor" value="НЕЗНАЧИТЕЛЬНЫЙ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6D8764;strokeColor=#3A5431;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry y="-30" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
