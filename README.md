@@ -1,4 +1,4 @@
-# Space Archiboard - Архитектурный анализ PropDevelopment
+Архитектурный анализ PropDevelopment
 
 ## Описание проекта
 
